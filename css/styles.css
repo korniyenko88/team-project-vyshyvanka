@@ -1,0 +1,46 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+img {display: block;}
+
+ul {
+    list-style: none;
+}
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.main-nav {
+    background-color: #1C2225;
+}
+
+.main-item {
+    background-color: teal;
+    
+}
+.main-social-icon {
+    background: rgba(252, 249, 249, 0.1);
+}
+.hed-icon-social{fill: #fcf9f9;}
+.main-nav { 
+    display: flex;
+    
+}
+.heder-social-list {
+    display: flex;
+}
