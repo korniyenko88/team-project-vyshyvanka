@@ -167,3 +167,30 @@ display: flex;
 justify-content: center;
 margin-bottom: 40px;
 }
+.our-colection-list {
+  display: flex;
+  flex-direction: column;
+  
+}
+.our-colection-img {
+  border-radius: 4px;
+width: 335px;
+height: 400px;
+margin-bottom: 18px;
+}
+.our-colection-title {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #fcf9f9;
+  margin-bottom: 8px;
+}
+.our-colection-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0.05em;
+  color: rgba(252, 249, 249, 0.4);
+}
