@@ -20,21 +20,53 @@ img {display: block;}
 ul {
     list-style: none;
 }
+body {
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    background-color: #1C2225;
+}
+
+/* Початок хедера */
 .container {
     width: 100%;
     margin: 0 auto;
+    padding: 0 20px 0 20px;
+    
 }
 
 .main-nav {
     background-color: #1C2225;
+    padding-top: 20px;
+    margin-bottom: 84px;
+}
+.main-logo {
+    margin-right: 87px;
 }
 
+.heder-social-list {
+    display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: row;
+gap: 12px;
+}
 .main-item {
-    background-color: teal;
+
     
 }
 .main-social-icon {
+    display: flex;
+align-items: center;
+justify-content: flex-start;
+flex-direction: row;
+gap: 8px;
     background: rgba(252, 249, 249, 0.1);
+    
+    border: 1px solid rgba(252, 249, 249, 0.1);
+border-radius: 15px;
+padding: 8px;
+width: 44px;
+height: 44px;
 }
 .hed-icon-social{fill: #fcf9f9;}
 .main-nav { 
@@ -43,4 +75,34 @@ ul {
 }
 .heder-social-list {
     display: flex;
+    margin-right: 12px;
+}
+.icon-heder-menu {
+    fill: #ECD979;
+}
+
+.heder-button-menu {
+    background-color: transparent;
+    border: none;
+}
+
+
+/* кінець хедера */
+
+
+
+/* Секція Hero */
+
+.hero-title {
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 109%;
+    letter-spacing: -0.03em;
+    color: #fcf9f9;
+    max-width: 375px;
+    margin-bottom: 20px;
+}
+.hero-ukrain {
+    color: #ecd979;
 }
