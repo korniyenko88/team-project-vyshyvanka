@@ -30,7 +30,7 @@ body {
 
 /* Початок хедера */
 .container {
-  width: 100%;
+  width: 375px;
   margin: 0 auto;
   padding: 0 20px 0 20px;
 }
@@ -150,4 +150,20 @@ margin-bottom: 40px;
 font-size: 14px;
 letter-spacing: -0.04em;
 color: rgba(252, 249, 249, 0.4);
+margin-bottom: 50px;
+}
+.about-foto {
+  border-radius: 4px;
+  margin-bottom: 80px;
+}
+
+.Our-collection-title {
+  font-weight: 500;
+font-size: 32px;
+line-height: 137%;
+letter-spacing: -0.03em;
+color: #fcf9f9;
+display: flex;
+justify-content: center;
+margin-bottom: 40px;
 }
