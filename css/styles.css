@@ -39,6 +39,7 @@ body {
   background-color: #1c2225;
   padding-top: 20px;
   margin-bottom: 84px;
+  width: 375px;
 }
 .main-logo {
   margin-right: 87px;
@@ -89,7 +90,7 @@ body {
 /* кінець хедера */
 
 /* Секція Hero */
-
+.hero { max-width: 375px;}
 .hero-title {
   font-family: "Manrope", sans-serif;
   font-weight: 400;
@@ -129,4 +130,24 @@ border-radius: 4px;
 width: 335px;
 height: 545px;
 margin: 0 auto 80px;
+}
+/* Кінець секції Hero */
+
+/* Початок секції About Us */
+.about-us {
+  max-width: 375px;
+}
+.title-about-us {
+  font-weight: 500;
+font-size: 32px;
+line-height: 137%;
+letter-spacing: -0.03em;
+color: #fcf9f9;
+margin-bottom: 40px;
+}
+.about-us-text {
+  font-weight: 400;
+font-size: 14px;
+letter-spacing: -0.04em;
+color: rgba(252, 249, 249, 0.4);
 }
