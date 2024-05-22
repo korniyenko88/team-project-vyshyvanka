@@ -52,8 +52,7 @@ body {
   flex-direction: row;
   gap: 12px;
 }
-.main-item {
-}
+
 .main-social-icon {
   display: flex;
   align-items: center;
