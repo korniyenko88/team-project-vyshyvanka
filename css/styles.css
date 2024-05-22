@@ -90,7 +90,9 @@ body {
 /* кінець хедера */
 
 /* Секція Hero */
-.hero { max-width: 375px;}
+.hero {
+  max-width: 375px;
+}
 .hero-title {
   font-family: "Manrope", sans-serif;
   font-weight: 400;
@@ -126,10 +128,10 @@ body {
 }
 
 .hero-foto {
-border-radius: 4px;
-width: 335px;
-height: 545px;
-margin: 0 auto 80px;
+  border-radius: 4px;
+  width: 335px;
+  height: 545px;
+  margin: 0 auto 80px;
 }
 /* Кінець секції Hero */
 
@@ -139,18 +141,18 @@ margin: 0 auto 80px;
 }
 .title-about-us {
   font-weight: 500;
-font-size: 32px;
-line-height: 137%;
-letter-spacing: -0.03em;
-color: #fcf9f9;
-margin-bottom: 40px;
+  font-size: 32px;
+  line-height: 137%;
+  letter-spacing: -0.03em;
+  color: #fcf9f9;
+  margin-bottom: 40px;
 }
 .about-us-text {
   font-weight: 400;
-font-size: 14px;
-letter-spacing: -0.04em;
-color: rgba(252, 249, 249, 0.4);
-margin-bottom: 50px;
+  font-size: 14px;
+  letter-spacing: -0.04em;
+  color: rgba(252, 249, 249, 0.4);
+  margin-bottom: 50px;
 }
 .about-foto {
   border-radius: 4px;
@@ -159,24 +161,29 @@ margin-bottom: 50px;
 
 .Our-collection-title {
   font-weight: 500;
-font-size: 32px;
-line-height: 137%;
-letter-spacing: -0.03em;
-color: #fcf9f9;
-display: flex;
-justify-content: center;
-margin-bottom: 40px;
+  font-size: 32px;
+  line-height: 137%;
+  letter-spacing: -0.03em;
+  color: #fcf9f9;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
 }
 .our-colection-list {
   display: flex;
   flex-direction: column;
-  
+
 }
+
+.our-colection-item {
+  padding-bottom: 20px;
+}
+
 .our-colection-img {
   border-radius: 4px;
-width: 335px;
-height: 400px;
-margin-bottom: 18px;
+  width: 335px;
+  height: 400px;
+  margin-bottom: 18px;
 }
 .our-colection-title {
   font-weight: 500;
