@@ -15,94 +15,118 @@ ul {
   margin: 0;
   padding: 0;
 }
-img {display: block;}
+img {
+  display: block;
+}
 
 ul {
-    list-style: none;
+  list-style: none;
 }
 body {
-    font-family: "Manrope", sans-serif;
-    font-weight: 400;
-    background-color: #1C2225;
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+  background-color: #1c2225;
 }
 
 /* Початок хедера */
 .container {
-    width: 100%;
-    margin: 0 auto;
-    padding: 0 20px 0 20px;
-    
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px 0 20px;
 }
 
 .main-nav {
-    background-color: #1C2225;
-    padding-top: 20px;
-    margin-bottom: 84px;
+  background-color: #1c2225;
+  padding-top: 20px;
+  margin-bottom: 84px;
 }
 .main-logo {
-    margin-right: 87px;
+  margin-right: 87px;
 }
 
 .heder-social-list {
-    display: flex;
-align-items: center;
-justify-content: center;
-flex-direction: row;
-gap: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 12px;
 }
 .main-item {
-
-    
 }
 .main-social-icon {
-    display: flex;
-align-items: center;
-justify-content: flex-start;
-flex-direction: row;
-gap: 8px;
-    background: rgba(252, 249, 249, 0.1);
-    
-    border: 1px solid rgba(252, 249, 249, 0.1);
-border-radius: 15px;
-padding: 8px;
-width: 44px;
-height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 8px;
+  background: rgba(252, 249, 249, 0.1);
+
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  border-radius: 15px;
+  padding: 8px;
+  width: 44px;
+  height: 44px;
 }
-.hed-icon-social{fill: #fcf9f9;}
-.main-nav { 
-    display: flex;
-    
+.hed-icon-social {
+  fill: #fcf9f9;
+}
+.main-nav {
+  display: flex;
 }
 .heder-social-list {
-    display: flex;
-    margin-right: 12px;
+  display: flex;
+  margin-right: 12px;
 }
 .icon-heder-menu {
-    fill: #ECD979;
+  fill: #ecd979;
 }
 
 .heder-button-menu {
-    background-color: transparent;
-    border: none;
+  background-color: transparent;
+  border: none;
 }
 
-
 /* кінець хедера */
-
-
 
 /* Секція Hero */
 
 .hero-title {
-    font-family: "Manrope", sans-serif;
-    font-weight: 400;
-    font-size: 44px;
-    line-height: 109%;
-    letter-spacing: -0.03em;
-    color: #fcf9f9;
-    max-width: 375px;
-    margin-bottom: 20px;
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 109%;
+  letter-spacing: -0.03em;
+  color: #fcf9f9;
+  max-width: 375px;
+  margin-bottom: 20px;
 }
 .hero-ukrain {
-    color: #ecd979;
+  color: #ecd979;
+}
+.hero-button {
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: #fcf9f9;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 10px;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  border-radius: 15px;
+  padding: 14px 36px;
+  width: 154px;
+  height: 49px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.hero-foto {
+border-radius: 4px;
+width: 335px;
+height: 545px;
+margin: 0 auto 80px;
 }
