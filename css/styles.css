@@ -223,6 +223,9 @@ body {
   margin-right: auto;
   margin-bottom: 100px;
 }
+.our-order {
+  margin-bottom: 80px;
+}
 .our-order-title {
   font-weight: 500;
   font-size: 32px;
@@ -243,6 +246,7 @@ body {
   width: 335px;
   height: 47px;
   margin-bottom: 20px;
+  color: #fff;
 }
 .user-email-form {
   background-color: transparent;
@@ -252,6 +256,7 @@ body {
   width: 335px;
   height: 47px;
   margin-bottom: 20px;
+  color: #fff;
 }
 .user-text-coment {
   border: 1px solid rgba(252, 249, 249, 0.1);
@@ -260,4 +265,48 @@ padding: 14px 16px;
 width: 335px;
 height: 196px;
 background-color: transparent;
+resize: none;
+color: #fff;
+margin-bottom: 40px;
+}
+.button-form {
+  border: 1px solid rgba(252, 249, 249, 0.1);
+border-radius: 15px;
+padding: 14px 36px;
+width: 145px;
+height: 49px;
+background-color: transparent;
+font-weight: 600;
+font-size: 14px;
+letter-spacing: -0.04em;
+text-transform: uppercase;
+color: #fcf9f9;
+display: flex;
+margin-left: auto;
+margin-right: auto;
+}
+
+/* Кінець Our Order */
+
+/* Початок Testimonials	 */
+
+.testimonials-title {
+  font-weight: 500;
+font-size: 32px;
+line-height: 137%;
+letter-spacing: -0.03em;
+color: #fcf9f9;
+margin-bottom: 40px;
+}
+.user-coment {
+  position: relative;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+border-radius: 4px;
+padding: 0px 18px 18px 18px;
+width: 335px;
+height: 243px;
+}
+.user-foto {
+  position: absolute;
+  top: -15%;
 }
