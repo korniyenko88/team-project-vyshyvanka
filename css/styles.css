@@ -48,6 +48,9 @@ body {
 .main-logo {
   margin-right: 87px;
 }
+.header-navigation-lits {
+  display: none;
+}
 
 .heder-social-list {
   display: flex;
@@ -94,11 +97,14 @@ body {
 
 /* Початок хедера tablet 768px */
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1279px) {
   .container {
   width: 768px;
   padding: 0 32px 0 32px;
    
+  }
+   .header-navigation-lits {
+    display: none;
   }
   .main-nav {
     padding-top: 20px;
@@ -111,6 +117,42 @@ body {
     margin-right: 20px;
   }
 
+}
+
+
+@media screen and (min-width: 1280px) {
+ .heder-button-menu {
+  display: none;
+ }
+ .container {
+  width: 1280px;
+  margin: 0 auto;
+  padding: 0 50px 0 50px;
+ }
+ .main-logo {
+  margin-right: 60px;
+}
+ .main-nav {
+  padding-top: 20px;
+  margin-bottom: 100px;
+ }
+ .header-navigation-lits {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 25px;
+  margin-right: 229px;
+ }
+ .header-nav-item {
+
+  font-weight: 400;
+font-size: 14px;
+line-height: 129%;
+text-transform: uppercase;
+color: #fcf9f9;
+
+ }
 }
 
 
