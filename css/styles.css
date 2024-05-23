@@ -28,6 +28,10 @@ body {
   background-color: #1c2225;
 }
 
+
+
+
+
 /* Початок хедера */
 .container {
   width: 375px;
@@ -39,7 +43,7 @@ body {
   background-color: #1c2225;
   padding-top: 20px;
   margin-bottom: 84px;
-  width: 375px;
+  
 }
 .main-logo {
   margin-right: 87px;
@@ -87,6 +91,29 @@ body {
 }
 
 /* кінець хедера */
+
+/* Початок хедера tablet 768px */
+
+@media screen and (min-width: 768px) {
+  .container {
+  width: 768px;
+  padding: 0 32px 0 32px;
+   
+  }
+  .main-nav {
+    padding-top: 20px;
+    margin-bottom: 100px;
+  }
+  .main-logo {
+    margin-right: 440px;
+  }
+  .heder-social-list {
+    margin-right: 20px;
+  }
+
+}
+
+
 
 /* Секція Hero */
 .hero {
@@ -305,8 +332,10 @@ border-radius: 4px;
 padding: 0px 18px 18px 18px;
 width: 335px;
 height: 243px;
+padding-top: 54px;
 }
 .user-foto {
   position: absolute;
   top: -15%;
+  left: 35%;
 }
