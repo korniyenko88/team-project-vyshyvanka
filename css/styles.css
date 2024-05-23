@@ -51,6 +51,9 @@ body {
 .header-navigation-lits {
   display: none;
 }
+.fone-nuber {
+  display: none;
+}
 
 .heder-social-list {
   display: flex;
@@ -106,6 +109,9 @@ body {
    .header-navigation-lits {
     display: none;
   }
+  .fone-nuber {
+    display: none;
+  }
   .main-nav {
     padding-top: 20px;
     margin-bottom: 100px;
@@ -139,7 +145,7 @@ body {
  .header-navigation-lits {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   flex-direction: row;
   gap: 25px;
   margin-right: 229px;
@@ -152,6 +158,30 @@ line-height: 129%;
 text-transform: uppercase;
 color: #fcf9f9;
 
+ }
+ .fone-nuber {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+border-radius: 15px;
+margin-right: 20px;
+width: 193px;
+height: 48px;
+ }
+ .address-link {
+  display: flex;
+  
+  text-decoration: none;
+  font-weight: 400;
+font-size: 14px;
+line-height: 1.43;
+text-transform: uppercase;
+color: #fcf9f9;
+ }
+
+ .heder-social-list {
+  margin-right: 0;
  }
 }
 
