@@ -158,6 +158,10 @@ body {
   margin-bottom: 80px;
 }
 
+/* кінець секції About Us */
+
+/* Початок секції Our colection */
+
 .Our-collection-title {
   font-weight: 500;
   font-size: 32px;
@@ -171,6 +175,7 @@ body {
 .our-colection-list {
   display: flex;
   flex-direction: column;
+  margin-bottom: 80px;
 
 }
 
@@ -199,4 +204,60 @@ body {
   line-height: 100%;
   letter-spacing: 0.05em;
   color: rgba(252, 249, 249, 0.4);
+}
+
+/* кінець секції Our colection */
+
+/* Почакок секції Our order */
+
+.fon {width: 375px;
+  height: 500px;
+  background-image: url(../imeges/icon_mobile/your_order_fon.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-left: 0;
+  padding-right: 0;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+}
+.our-order-title {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 137%;
+  letter-spacing: -0.03em;
+  color: #fcf9f9;
+  margin-bottom: 40px;
+}
+.order-title {
+  
+  color: #ecd979;
+}
+.user-name-form {
+  background-color: transparent;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  border-radius: 15px;
+  padding: 14px 16px;
+  width: 335px;
+  height: 47px;
+  margin-bottom: 20px;
+}
+.user-email-form {
+  background-color: transparent;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  border-radius: 15px;
+  padding: 14px 16px;
+  width: 335px;
+  height: 47px;
+  margin-bottom: 20px;
+}
+.user-text-coment {
+  border: 1px solid rgba(252, 249, 249, 0.1);
+border-radius: 8px;
+padding: 14px 16px;
+width: 335px;
+height: 196px;
+background-color: transparent;
 }
