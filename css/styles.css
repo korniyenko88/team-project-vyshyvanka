@@ -27,6 +27,9 @@ body {
   font-weight: 400;
   background-color: #1c2225;
 }
+a {
+  cursor: pointer;
+}
 
 
 
@@ -37,6 +40,28 @@ body {
   width: 375px;
   margin: 0 auto;
   padding: 0 20px 0 20px;
+}
+
+.main-social-icon:focus{
+  border: 1px solid #ecd979;
+  background-color: transparent;
+}
+.main-social-icon:hover{
+  border: 1px solid #ecd979;
+  background-color: transparent;
+}
+
+.header-nav-item:hover{
+  color: #ecd979;
+}
+.header-nav-item:focus{
+  color: #ecd979;
+}
+.fone-nuber:hover {
+  border: 1px solid #ecd979;
+}
+.fone-nuber:focus{
+  border: 1px solid #ecd979;
 }
 
 .main-nav {
